@@ -50,7 +50,7 @@ export default function Home() {
                 />
               </li>
               <li>
-              <a href="https://wa.me/573105161238"><Image src={web11} alt="" /></a>
+              <a href="https://wa.me/573105161238"><Image src={web11} alt="web11" /></a>
 
 
               </li>
@@ -70,7 +70,7 @@ export default function Home() {
             
             
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt = "cover"/>
             </div>
           </div>
         </section>
@@ -91,16 +91,16 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="" /></a>
-            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="" /></a>
-            <a href="https://wa.me/573105161238"><Image src={web9} alt="" /></a>
-            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="" /></a>
+            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="web7" /></a>
+            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="web10" /></a>
+            <a href="https://wa.me/573105161238"><Image src={web9} alt="web9" /></a>
+            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="web8" /></a>
 
             
             </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt = "design" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -115,7 +115,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100}alt = "code"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -140,7 +140,7 @@ export default function Home() {
             </div>
            
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt = "consulting" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -171,10 +171,10 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="" /></a>
-            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="" /></a>
-            <a href="https://wa.me/573105161238"><Image src={web9} alt="" /></a>
-            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="" /></a>
+            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="web7" /></a>
+            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="web10" /></a>
+            <a href="https://wa.me/573105161238"><Image src={web9} alt="web9" /></a>
+            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="web8" /></a>
 
             
             </div>
@@ -186,6 +186,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt = "web1"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -195,6 +196,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt = "web2"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -204,6 +206,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt = "web3"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -213,6 +216,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web14}
+                alt = "web14"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -222,6 +226,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web12}
+                alt = "web12"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -231,13 +236,14 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web13}
+                alt = "web13"
               />
             </div>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="" /></a>
-            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="" /></a>
-            <a href="https://wa.me/573105161238"><Image src={web9} alt="" /></a>
-            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="" /></a>
+            <a href="https://www.linkedin.com/in/juan-manuel-ram%C3%ADrez-0788511b5/"><Image src={web7} alt="web7" /></a>
+            <a href="mailto:manuram0823@gmail.com?Subject=Enlace?Subject=Enlace"><Image src={web10} alt="web10" /></a>
+            <a href="https://wa.me/573105161238"><Image src={web9} alt="web9" /></a>
+            <a href="https://www.facebook.com/techworld98/"><Image src={web8} alt="web8" /></a>
 
             
             </div>
